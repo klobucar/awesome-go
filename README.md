@@ -57,8 +57,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
-            - [Actual middlewares](#actual-middlewares)
-            - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
     - [Windows](#windows)
 
 - [Tools](#tools)
@@ -128,6 +126,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
+* [termtables](https://github.com/apcera/termtables) - A Go port of the Ruby library [terminal-tables](https://github.com/visionmedia/terminal-table) for simple ASCII table generation as well as providing markdown and HTML output
 * [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
 
 
@@ -735,13 +734,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ### Middlewares
 
-#### Actual middlewares
-
-* [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API
-* [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST
-* [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends
-
-#### Libraries for creating HTTP middlewares
+*Libraries for creating HTTP middlewares.*
 
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
 * [go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http.
@@ -750,6 +743,9 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 * [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
+
+
+
 
 # Tools
 
